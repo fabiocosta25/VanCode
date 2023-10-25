@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+body{
+  background: linear-gradient(#1e90ff, 	#00008b);
+  color: #fff;
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+h2{
+  margin: 10px 0 20px;
+  text-align: center;
+}
+IMG{
+  margin-left: 25%;
+    margin-right: 50%;
+    width: 10em;
+
+}
+.wrapper {
+	  background-color: #191970;
+  padding: 20px;
+  width: 350px;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #191970, 0 0 25px #191970, 0 0 50px #000080,
+    0 0 100px #0000FF;
+}
+#entradaDados {
+	width: 100%;
+	border: none;
+    background: #e8f0eb;
+	border-bottom: 2px solid black;
+	padding: 0.5em 1em;
+	font-size: 1em;
+	outline: none;
+	border-radius: 10px;
+}
+.opcoes {
+	margin-top: 1em;
+	display: grid;
+    align-content: space-between;
+}
+.tamanhoOpcoes{
+    margin-right: 20px;
+}
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 6em;
+	padding: 0.45em 0.9em;
+	font-size: 1.25em;
+	letter-spacing: 0.5px;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: none;
+  border: 0.18em solid #fff;
+	color: #fff;
+	border-radius: 10px;
+	outline: none;
+}
+select::-ms-expand {
+	display: none;
+}
+select option {
+	background-color: #ffffff;
+	color: #4F4F4F;
+	letter-spacing: 0.06em;
+	font-weight: 400;
+	font-size: 1.12em;
+}
+.selected {
+	display: none;
+}
+.color-inp {
+	appearance: none;
+	background-color: transparent;
+	width: 4em;
+	height: 3.43em;
+	border: none;
+    cursor: pointer;
+}
+.color-inp::-webkit-color-swatch {
+	border-radius: 0.3125em;
+	border: 0.18em rgba(0, 0, 0, 0.4);
+}
+.color-inp::-moz-color-swatch {
+	border-radius: 5px;
+	border: 0.18em rgba(0, 0, 0, 0.4);
+}
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 1em;
+}
+.box button,
+.box a {
+	font-size: 1em;
+	padding: 0.8em 1em;
+	border-radius: 0.5em;
+}
+.box button:disabled {
+	background-color: transparent;
+	color: #fff;
+	border: 0.18em solid #fff;
+}
+.box button {
+	background-color: transparent;
+	color: #fff;
+    font-weight: bold;
+	border: 0.18em solid #fff;
+}
+.box a {
+	background-color: transparent;
+	color: #ffffff;
+	border: 0.18em solid #fff;
+	text-decoration: none;
+}
+.container {
+	display: flex;
+	justify-content: center;
+  align-items: center;
+	margin-top: 3em;
+}
+.hide {
+	display: none;
+  
+}
